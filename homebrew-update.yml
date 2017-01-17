@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: Upgrade homebrew and all installed Homebrew packages
+      homebrew:
+        update_homebrew: yes
+        upgrade_all: yes
+
+

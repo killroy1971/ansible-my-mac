@@ -1,0 +1,54 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: Install flash-player
+      homebrew_cask:
+        name: flash-player
+        state: present
+
+    - name: Install App Cleaner
+      homebrew_cask:
+        name: appcleaner
+        state: present
+
+    - name: Install MacVIM
+      homebrew_cask:
+        name: macvim
+        state: present
+
+    - name: Install Vagrant
+      homebrew_cask:
+        name: vagrant
+        state: present
+
+    - name: Install xquartz
+      homebrew_cask:
+        name: xquartz
+        state: present
+
+    - name: Install Amazon Music
+      homebrew_cask:
+        name: amazon-music
+        state: present
+
+    - name: Install VirtualBox
+      homebrew_cask:
+        name: virtualbox
+        state: present
+
+    - name: Install VirtualBox Extensions
+      homebrew_cask:
+        name: virtualbox-extension-pack
+        state: present
+
+    - name: Install Sonos
+      homebrew_cask:
+        name: sonos
+        state: present
+
+    - name: Install Remote Viewer
+      homebrew_cask:
+        name: remoteviewer
+        state: present
+
