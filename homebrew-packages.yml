@@ -52,7 +52,7 @@
         name: ssh-copy-id
         state: present
 
-    - name: Install Python
+    - name: Install Python 2
       homebrew:
         name: python
         state: present
