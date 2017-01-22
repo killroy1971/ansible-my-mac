@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Install Homebrew
-if [ ! -x "/usr/bin/make" ]; then
-  if [ -x "/usr/bin/xcode-select" ]; then /usr/bin/xcode-select --install; fi
-else
-  echo "Homebrew requied the Xcode Command Line Tools (CLT) to install."
-  echo "Please install this package and run this script again."
-  exit 1
+if [ ! -x /usr/bin/make ]; then
+  if [ -x /usr/bin/xcode-select ]; then /usr/bin/xcode-select --install
+    else
+     echo "Homebrew requied the Xcode Command Line Tools (CLT) to install."
+     echo "Please install this package and run this script again."
+     exit 1
+   fi
 fi
 
 if [ ! -x "/usr/local/bin/brew" ]; then 
