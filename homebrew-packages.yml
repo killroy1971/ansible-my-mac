@@ -77,3 +77,8 @@
         name: openssh
         state: present
 
+    - name: Install shellcheck
+      homebrew:
+        name: shellcheck
+        state: present
+
