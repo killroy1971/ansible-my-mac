@@ -1,0 +1,32 @@
+---
+homebrew_packages:
+  - bash
+  - coreutils
+  - fontconfig
+  - freetype
+  - git
+  - glib
+  - gnutls
+  - jpeg
+  - keychain
+  - nmap
+  - openssh
+  - openssl
+  - python
+  - shellcheck
+  - ssh-copy-id
+  - wget
+
+homebrew_casks:
+  - amazon-music
+  - appcleaner
+  - flash-player
+  - iterm2
+  - macvim
+  - remoteviewer
+  - sonos
+  - vagrant
+  - virtualbox
+  - virtualbox-extension-pack
+  - xquartz
+

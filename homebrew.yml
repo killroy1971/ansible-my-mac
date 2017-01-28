@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+
+  tasks:
+    - include_vars: group_vars/osx.yml
+    - name: Install homebrew packages
+      homebrew: name={{ item }} state=present
+      with_items: "{{ homebrew_packages }}"
+
+    - name: Install homebrew casks
+      homebrew_cask: name={{ item }} state=present
+      with_items: "{{ homebrew_casks }}"
+
