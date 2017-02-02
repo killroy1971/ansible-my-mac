@@ -1,4 +1,4 @@
-H1My MacBook (or OSX) setup playbook
+#My MacBook (or OSX) setup playbook
 
 This contains the following:
 * initial_mac_setup.sh -- Installs homebrew, then ansible
