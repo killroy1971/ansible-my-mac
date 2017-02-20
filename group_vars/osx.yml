@@ -1,5 +1,6 @@
 ---
 homebrew_packages:
+  - awscli
   - bash
   - coreutils
   - fontconfig
@@ -13,18 +14,24 @@ homebrew_packages:
   - nmap
   - openssh
   - openssl
+  - packer
   - python
+  - readline
   - shellcheck
   - ssh-copy-id
+  - tmux
   - wget
 
 homebrew_casks:
   - amazon-music
   - appcleaner
+  - atom
   - flash-player
+  - google-drive
   - iterm2
   - macvim
   - remoteviewer
+  - rocket-chat
   - sonos
   - vagrant
   - virtualbox
