@@ -10,7 +10,6 @@ Scripts:
 Example Playbook:
 This file is in the playbooks directory.
 
----
 - hosts: localhost
   vars:
     homebrew_install: false
