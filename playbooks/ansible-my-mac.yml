@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  vars:
+    homebrew_install: false
+    homebrew_update: false
+  roles:
+    - ansible-my-mac
+
