@@ -10,12 +10,12 @@ Scripts:
 Example Playbook:
 This file is in the playbooks directory.
 
-- hosts: localhost
-  vars:
-    homebrew_install: false
-    homebrew_update: false
-  roles:
-    - ansible-my-mac
+```- hosts: localhost
+```  vars:
+```    homebrew_install: false
+```    homebrew_update: false
+```  roles:
+```    - ansible-my-mac
 
 Usage:
 1. Create an Ansilbe directory off your home directory: mkdir -p $HOME/ansible/roles
