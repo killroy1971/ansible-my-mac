@@ -17,12 +17,6 @@ fi
 # Update homebrew
 brew update
 
-# Set CASKROOM environment varriable
-export HOMEBREW_CASK_OPTS="--caskroom=/opt/homebrew-cask/Caskroom"
-
 # Install Ansible
 brew install ansible
-
-# Install ansible-lint
-pip2 install ansible-lint
 

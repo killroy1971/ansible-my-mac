@@ -1,0 +1,7 @@
+---
+- include_tasks: homebrew.yml
+  when: {{ homebrew_install }}
+
+- include_tasks: homebrew-update.yml
+  when: {{ homebrew_update }}
+

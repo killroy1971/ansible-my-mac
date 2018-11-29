@@ -1,0 +1,11 @@
+---
+- name: Ansible-my-mac | Upgrade homebrew and all installed Homebrew packages
+  homebrew:
+    update_homebrew: yes
+    upgrade_all: yes
+
+- name: Ansible-my-mac | Upgrade homebrew casks via reinstall
+  homebrew_cask:
+    update_homebrew: yes
+    upgrade_all: yes
+

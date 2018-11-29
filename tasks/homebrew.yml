@@ -1,0 +1,9 @@
+---
+- name: Ansible-my-mac | Install homebrew packages
+  homebrew: name={{ item }} state=present
+  with_items: "{{ homebrew_packages }}"
+
+- name: Ansible-my-mac | Install homebrew casks
+  homebrew_cask: name={{ item }} state=present
+  with_items: "{{ homebrew_casks }}"
+

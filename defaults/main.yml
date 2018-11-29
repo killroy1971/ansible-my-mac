@@ -1,4 +1,7 @@
 ---
+homebrew_install: false
+homebrew_update: false
+
 homebrew_packages:
   - awscli
   - bash

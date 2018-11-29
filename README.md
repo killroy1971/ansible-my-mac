@@ -1,4 +1,5 @@
 #My MacBook (or OSX) setup playbook
+Note: Currently turning into an Ansible role
 
 This contains the following:
 * initial_mac_setup.sh -- Installs homebrew, then ansible
